@@ -7,7 +7,7 @@ class Card extends Component{
       <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
         <img src={this.props.img} alt='Robot'/>
         <div>
-          <h2> {this.props.name} </h2>
+          <h4> {this.props.name} </h4>
           <p> {this.props.email} </p>
         </div>
       </div>
