@@ -21,9 +21,9 @@ class CardList extends Component{
         <Card
           key={robot.id}
           id={robot.id}
-          user={robot.user}
+          name={robot.name}
           email={robot.email}
-          img={robot.img}
+          img={`https://robohash.org/${robot.id}?size=200x200`}
         />
       );
     });
